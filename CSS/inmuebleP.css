@@ -1,0 +1,129 @@
+.main__info_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(219, 219, 219);
+    padding: 1rem 2rem;
+    border-radius: 10px 10px 0 0;
+    /* box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); */
+
+}
+
+.main__container {
+    margin-top: 1rem;
+    padding: 1rem;
+
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 20px 20px 25px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+
+
+}
+
+.info__name {
+    font-size: 2rem;
+    color: #757575;
+}
+
+.buy__container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.buy__container p {
+    background-color: #a8a8a8;
+    padding: .2rem 1rem;
+    border-radius: 5px;
+    color: rgb(54, 54, 54);
+    margin: 1rem 0;
+}
+
+.location {
+    display: flex;
+    gap: 1rem;
+    color: rgb(54, 54, 54);
+
+}
+
+.ubication {
+    margin: .5rem 0;
+}
+
+.price p {
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #757575;
+}
+
+.description__container {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    border-radius: 0 0 15px 15px;
+    overflow: hidden;
+
+}
+
+@media (max-width: 800px) {
+    .description__container {
+
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+
+    .icons__description div img {
+
+        width: 1rem;
+
+    }
+
+    .description__paragraph p {
+        font-size: .5rem;
+    }
+
+}
+
+.description__container img {
+    width: 100%;
+}
+
+.description {
+
+    padding: 2rem;
+    color: #757575;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons__description {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    color: #555555;
+    font-weight: 500;
+
+
+}
+
+.m²,
+.cuartos,
+.baños,
+.garage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5em;
+
+}
+
+
+.m² img,
+.cuartos img,
+.baños img,
+.garage img {
+    width: 2rem;
+
+}
+
+
+/*  */

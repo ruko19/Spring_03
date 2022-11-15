@@ -1,0 +1,118 @@
+{
+    "inmuebles": [
+        {
+            "id": "1",
+            "img": "./img/apto_01.jpg",
+            "nombre": "El triunfo ll torre 33",
+            "direccion": "Cl. 10A #19a-142, Soacha",
+            "ubicacion": "Bogotá",
+            "metrosCuadrados": "70 ",
+            "TipImieble": "Apartamento",
+            "rentaOVenta": "Arriendo",
+            "habitaciones": "3",
+            "baños": "2",
+            "precio": "2.500.000",
+            "parqueadero": "2",
+            "propietario": {
+                "nombrePro": "Juan Pablo Ramirez",
+                "contactoPro": ""
+            },
+            "descripcion": "Apartamento ubicado en Soacha, Conjunto Residencial El Triunfo 2 ¡$6 MILLONES DE DESCUENTO! precio del mercado $105M, con nosotros $99M. 3° Piso (En Remodelación) con excelentes acabados, habitaciones amplias, 2 baños, cocina abierta, sala comedor y pisos en cerámica."
+        },
+        {
+            "id": "2",
+            "img": "./img/apto_02.jpg",
+            "nombre": "Tierra Buena Reservado 2",
+            "ubicacion": "Cali",
+            "direccion": "Cra. 98 #2-32, Cali",
+            "metrosCuadrados": "105",
+            "habitaciones": "5",
+            "baños": "2",
+            "TipImieble": "Apartamento",
+            "rentaOVenta": "venta",
+            "precio": "520,000,000",
+            "parqueadero": "1",
+            "propietario": {
+                "nombrePro": "Monica Betancur",
+                "contactoPro": ""
+            },
+            "descripcion": "Apartamento ubicado en Conjunto Residencial Tierra Buena Reservado Etapa 2, Kennedy ¡7 MILLONES DE DESCUENTO! Precio del mercado $ 124M, precio con nosotros $ 117M. Apartamento ubicado en piso 404 torre 9, vista interior, buena iluminación, excelentes acabados, parqueadero comunal."
+        },
+        {
+            "id": "3",
+            "img": "./img/home_03.jpg",
+            "nombre": "Camino de las Americas 305",
+            "ubicacion": "Medellin",
+            "direccion": "Colegio Colsubsidio Chicalá-AV. C. de Cali - DG 52 A Sur, Bogotá",
+            "metrosCuadrados": "160",
+            "habitaciones": "3",
+            "baños": "1",
+            "TipImieble": "Finca",
+            "rentaOVenta": "venta",
+            "precio": "780,000,000",
+            "parqueadero": "0",
+            "propietario": {
+                "nombrePro": "Gabriel Alonzo Ramirez",
+                "contactoPro": ""
+            },
+            "descripcion": "Finca ubicada en Condominio Residencial Camino De Las Américas. ¡2 MILLONES DE DESCUENTO! Precio del mercado $135M, con nosotros $133M. Piso 3 con buenos acabados, buena vista "
+        },
+        {
+            "id": "4",
+            "img": "./img/home_04.jpg",
+            "nombre": "Terra Grande 4 apto 304",
+            "ubicacion": "Bogotá",
+            "direccion": "Cra. 9 Este #36-89, Soacha, Cundinamarca",
+            "metrosCuadrados": "190",
+            "habitaciones": "4",
+            "baños": "2",
+            "TipImieble": "Finca",
+            "rentaOVenta": "venta",
+            "precio": "650,000,000",
+            "parqueadero": "2",
+            "propietario": {
+                "nombrePro": "Isabela Gallego",
+                "contactoPro": ""
+            },
+            "descripcion": "Finca ubicada en Soacha, Conjunto Residencial Terra Grande 4. (Cra. 9 Este #36-89). ¡$7 MILLONES DE DESCUENTO! Precio del mercado $113M, con nosotros $106M. Piso 3 con buenos acabados e iluminación natural, habitaciones amplias, baño terminado, sala comedor, pisos en cerámica y zona de ropas ventilada."
+        },
+        {
+            "id": "5",
+            "img": "./img/home_05.jpg",
+            "nombre": "Parque Central Tintal 2 607",
+            "ubicacion": "Medellin",
+            "direccion": "Cra. 98 #2-44, Medellin",
+            "metrosCuadrados": "185",
+            "habitaciones": "3",
+            "baños": "3",
+            "TipImieble": "Casa",
+            "rentaOVenta": "Arriendo",
+            "precio": "2,500,000",
+            "parqueadero": "0",
+            "propietario": {
+                "nombrePro": "Javier Alzate",
+                "contactoPro": ""
+            },
+            "descripcion": "Casa ubicada en Kennedy - Osorio III, Parque Central Tintal 2. ¡$4 MILLONES DE DESCUENTO! Precio del mercado $149M, con nosotros $145M. 6° Piso con buena iluminación y excelentes acabados, alcobas con closet, baños cabinados, cocina semi integral, sala comedor, pisos en cerámica, shut de basuras y ascensor."
+        },
+        {
+            "id": "6",
+            "img": "./img/home_06.jpg",
+            "nombre": "Senderos del Porvenir apto 103",
+            "ubicacion": "Cali",
+            "direccion": "Cl. 54c Sur #95A-11, Colombia",
+            "metrosCuadrados": "156",
+            "habitaciones": "3",
+            "baños": "2",
+            "TipImieble": "Finca",
+            "rentaOVenta": "Arriendo",
+            "precio": "2,800,0000",
+            "parqueadero": "1",
+            "propietario": {
+                "nombrePro": "Santiago benjumea",
+                "contactoPro": ""
+            },
+            "descripcion": "Finca ubicada en Bosa, Senderos del Porvenir 2. ¡7 MILLONES DE DESCUENTO! Precio del mercado $117M, con nosotros $110M. Piso 1 con buena iluminación y excelentes acabados, habitaciones amplias, baño terminado, cocina semi integral, sala comedor, pisos en cerámica y parqueaderos comunales."
+        }
+    ]
+}

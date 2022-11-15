@@ -1,0 +1,303 @@
+@media (max-width: 800px) {
+    .top__menu__left {
+        display: none;
+    }
+
+    .top__menu {
+        justify-content: center;
+    }
+
+    .cards__container {
+        flex-direction: column;
+    }
+
+    .property__card {
+        width: 96%;
+        /* margin-bottom: 3rem; */
+    }
+}
+
+/* medias para el menu hamburguesa */
+@media (max-width: 1108px) {
+
+
+    .nav__container {
+        position: fixed;
+        top: 0;
+        right: -380px;
+        background-color: rgb(238, 238, 238);
+        z-index: 1;
+        padding: 0px;
+        width: 380px;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+    .nav_left {
+        flex-direction: column;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        margin-top: 2rem;
+
+    }
+
+    #back__container {
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+    }
+
+    #btn__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 5rem;
+        right: 1.5rem;
+        font-size: 24px;
+        border-radius: 50%;
+        width: 45px;
+        height: 45px;
+        background-color: rgba(255, 255, 255, 0.356);
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    #btn__menu:hover {
+        background-color: rgba(255, 255, 255, 0.61);
+    }
+
+    #btn__exit {
+        display: flex;
+    }
+
+    .hero__main {
+        flex-direction: column;
+        height: 69rem;
+        width: 100%;
+    }
+
+    .hero__main__info {
+        width: 100%;
+    }
+
+    .photos {
+        width: 100%;
+    }
+
+
+
+}
+
+/* medias para formulario */
+
+@Media (max-width: 744px) {
+
+    /* .search__container {
+        flex-direction: column-reverse;
+    } */
+
+    /* .custom-arrow {
+        right: 11rem;
+    } */
+}
+
+/* media para titulos */
+
+
+@media (max-width: 500px) {
+
+    .properties__paragraph {
+        font-size: 12px;
+
+    }
+
+    .properties__tittle {
+        font-size: 30px;
+    }
+
+    .hero__main__info p {
+        font-size: 14px;
+
+    }
+
+    .hero__main__info h2 {
+        font-size: .8rem;
+    }
+
+    .hero__main__icons img {
+        width: 3rem;
+    }
+
+}
+
+@media(max-width: 1208px) {
+
+    .cards__container {
+        justify-content: space-evenly;
+        /* gap: 5px; */
+    }
+}
+
+
+
+@media (max-width:375px) {}
+
+
+/* media section our agent */
+
+@media(max-width: 930px) {
+    .agents__container {
+        justify-content: center;
+
+    }
+
+    .agent__card {
+        width: 45%;
+    }
+}
+
+@media (max-width:600px) {
+    .agents__container {
+        flex-direction: column;
+
+    }
+
+    .agent__card {
+        width: 95%;
+    }
+}
+
+
+/* medias de more details */
+@media (max-width: 850px) {
+    .hero__more-details {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .more-details {
+        width: 90%;
+        left: 10px;
+
+    }
+
+    .more-details__tittle {
+        font-size: 50px;
+    }
+
+    .more-details__paragraph {
+        font-size: 14px;
+    }
+
+}
+
+
+/* medias de agencies */
+
+@media(max-width:800px) {
+    .agencies__container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .agencie__card {
+        width: 85%;
+
+    }
+}
+
+/* medias articles */
+@media (max-width: 800px) {
+    .articles__container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .articles__card {
+        width: 75%;
+    }
+}
+
+/* medias para value */
+@media (max-width: 800px) {
+    .values__container {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .value__card {
+        width: 75%;
+    }
+}
+
+/* medias para hero footer */
+
+@media (max-width: 600px) {
+
+
+
+    .hero__description {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+
+    .hero__description {
+        font-size: 15px;
+    }
+
+    .avatar__footer img {
+        width: 12rem;
+    }
+}
+
+@media(max-width: 1000px) {
+
+    .footer__links {
+        display: none;
+    }
+
+}
+
+/* medias para cards */
+
+
+@media (max-width: 1000px) {
+    .cards__container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
+
+    }
+}
+
+@media (max-width: 600px) {
+    .cards__container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+
+
+    }
+}
+
+
+/* medias para pagina de inmuebles */
+
+/* @media(max-width: 800px) {
+
+    .description__container {
+        grid-template-columns: repeat(, minmax(0, 1fr));
+    }
+} */

@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>casaRoyal</title>
+    <link rel="shorcut icon" href="./img/icon_title.svg">
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="stylesheet" href="./CSS/medias.css">
+    <script src="https://kit.fontawesome.com/2486c628c2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="top__menu">
+            <div class="top__menu__left">
+                <p class="menu__left__ub">
+                    1441 Market ST, San Francisco
+                </p>
+                <p class="menu__left__num">
+                    (123) 456-7890
+                </p>
+                <p class="menu__left__day">
+                    Mon - Sun: 8:00am - 6:00pm
+                </p>
+            </div>
+            <div class="top__menu__rigth">
+                <a href="#">LOGIN/REGISTER</a>
+            </div>
+        </div>
+
+
+
+        <i class="fa-solid fa-bars" id="btn__menu"></i>
+
+        <div id="back__container">
+
+        </div>
+        <nav class="nav__container">
+
+
+            <div class="nav_left">
+                <figure class="nav__logo">
+                    <a href="./index.html"><img src="./img/Logo_navbar.svg" alt=""></a>
+
+                </figure>
+                <i class="fa-solid fa-xmark" id="btn__exit"></i>
+                <ul class="nav__links">
+                    <a href="#">
+                        <li class="nav__link">homepage</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav__link">properties</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav__link">agencies</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav__link">pages</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav__link">about</li>
+                    </a>
+                    <a href="#">
+                        <li class="nav__link">contact</li>
+                    </a>
+
+                </ul>
+            </div>
+
+            <div class="nav__rigth">
+
+                <a href="#">FAVORITES ()</a>
+                <button class="nav__btn">SUBMIT LISTING</button>
+            </div>
+
+        </nav>
+
+        <div class="hero">
+
+
+
+
+        </div>
+
+    </header>
+
+    <main class="main">
+        <section class="properties__container container">
+            <div class="properties__text">
+
+                <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+                <h2 class="properties__tittle"> <span>Feature</span>Properties</h2>
+
+            </div>
+
+            <div class="search__container">
+
+                <form action="" class="form-search" id="formulario">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Ingresa Ubicacion" id="inputFormulario">
+                </form>
+                <div class="custom-select">
+                    <select name="tInmueble" id="tInmueble">
+                        <option value="" active>Tipo de Inmueble</option>
+                        <option value="">Todos</option>
+                        <option value="Finca">Finca</option>
+                        <option value="Local comercial">Local comercial</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Apartamento">Apartamento</option>
+                    </select>
+                    <span class="custom-arrow"></span>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="imuebles" class="cards__container container">
+
+            <!-- <div class="property__card">
+
+                <div class="hero__card hero__card1">
+
+                    <figure class="hero__card__img">
+                        <img src="./img/hero_car1.jpg" alt="">
+                    </figure>
+
+                    <div class="hero__card__icons">
+                        <div class="hero__card__icons--buy">
+                            <div class="class__card"></div>
+                            <div class="buy__card"></div>
+                        </div>
+
+                        <img class=" star__icon" src="./img/estrella.png" width="25px" alt="">
+
+                    </div>
+                    <div class="price_card">$</div>
+
+                </div>
+
+                <div class="info__card">
+                    <h3 class="ubication__card"></h3>
+                    <p class="location__card"></p>
+                    <p class="location__card"></p>
+                    <div class="time__card">
+                        <div class="user__card">
+                            <img src="./img/icon__user.svg" alt="">
+                            <p class="name__user"></p>
+                        </div>
+                        <p class="times__card">4 month ago</p>
+
+
+
+                    </div>
+                    <hr>
+                    <div class="icons__info__card">
+                        <div class="tamaño__info">
+                            <img src="./img/Area Icon.svg" alt="">
+                            <p> <span></span>M²</p>
+                        </div>
+
+                        <div class="icons__info__card--unit">
+                            <div class="icon">
+                                <img src="./img/Garage Icon.svg" alt="">
+                                <p class="icon__number"></p>
+                            </div>
+                            <div class="icon">
+                                <img src="./img/Bathroom Icon.svg" alt="">
+                                <p class="icon__number"></p>
+                            </div>
+                            <div class="icon">
+                                <img class="cama__icon" src="./img/cama.png" alt="">
+                                <p class="icon__number"></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div> -->
+
+
+
+
+
+        </section>
+
+        <button class="btn__properties">ALL PROPERTIES</button>
+
+        <div class="properties__text">
+
+            <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+            <h2 class="properties__tittle"> <span>Hot</span>Deal</h2>
+
+        </div>
+
+        <section class="hero__main container">
+            <div class="photos">
+
+                <p>Photos (4)</p>
+
+            </div>
+            <div class="hero__main__info">
+                <p>Residential Towe For Rent</p>
+                <h2>15 Apartments of Type B</h2>
+                <p>Los Angeles, CA</p>
+
+                <button class="hero__main__btn">From <span>$1.700.00</span> Per Month</button>
+                <div class="hero__main__circle">
+                    <img src="./img/Video Button.svg" alt="">
+                </div>
+
+                <div class="hero__main__icons">
+
+                    <img onclick="" src="./img/Area Size.svg" alt="">
+                    <img src="./img/Beds.svg" alt="">
+                    <img src="./img/Baths.svg" alt="">
+                    <img src="./img/Garage.svg" alt="">
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+        <div class="properties__text">
+
+            <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+            <h2 class="properties__tittle"> <span>Properties </span>by Area</h2>
+
+        </div>
+
+        <section>
+
+        </section>
+
+        <div class="properties__text">
+
+            <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+            <h2 class="properties__tittle"> <span>Our</span>Agent</h2>
+
+        </div>
+
+        <section class="agents__container container">
+
+            <div class="agent__card">
+                <figure class="agent__card__img"><img src="./img/Agent Image1.png" alt=""></figure>
+
+                <div class="agent__card__text">
+
+                    <p>Real Estate Broker</p>
+                    <h3 class="agent__name">
+                        JOHN DOE
+                    </h3>
+
+                    <P class="agent__number">123 456 7890</P>
+                    <P class="agent__email">agent@gmail.com</P>
+
+
+                </div>
+
+
+            </div>
+
+            <div class="agent__card">
+                <figure class="agent__card__img"><img src="./img/Agent Image2.png" alt=""></figure>
+
+                <div class="agent__card__text">
+
+                    <p>Real Estate Broker</p>
+                    <h3 class="agent__name">
+                        JOHN DOE
+                    </h3>
+
+                    <P class="agent__number">123 456 7890</P>
+                    <P class="agent__email">agent@gmail.com</P>
+
+
+                </div>
+
+            </div>
+
+            <div class="agent__card">
+                <figure class="agent__card__img"><img src="./img/Agent Image3.png" alt=""></figure>
+
+                <div class="agent__card__text">
+
+                    <p>Real Estate Broker</p>
+                    <h3 class="agent__name">
+                        JOHN DOE
+                    </h3>
+
+                    <P class="agent__number">123 456 7890</P>
+                    <P class="agent__email">agent@gmail.com</P>
+
+
+                </div>
+
+            </div>
+        </section>
+
+        <figure class="navigatio"><img src="./img/Navigation.svg" alt=""></figure>
+
+
+
+        <section class="hero__more-details">
+            <div class="more-details">
+                <h2 class="more-details__tittle">Want to Sell Property?</h2>
+                <p class="more-details__paragraph">let us create a tailored strategic marketing plan and keep track
+                    of
+                    the selling process.</p>
+
+                <button class="more-details__btn">MORE DETAILS</button>
+            </div>
+
+
+        </section>
+
+
+        <div class="properties__text">
+
+            <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+            <h2 class="properties__tittle"> <span>Real Estate </span>Agencie</h2>
+
+        </div>
+
+        <section class="agencies__container container">
+
+            <div class="agencie__card">
+                <div class="agencie__card-top">
+                    <div class="card__top__left">
+                        <img src="./img/Verified Icon.svg" alt="">
+                        <p>Verified</p>
+                    </div>
+                    <div class="card__top__rigth">
+                        <div class="value">4.5</div>
+                    </div>
+
+                </div>
+                <img src="./img/Logo1.svg" width="170px" alt="">
+                <div class="flag__container">
+                    <img src="./img/Flag.svg" alt="" class="flag">
+                    <p>San Francisco, USA</p>
+                </div>
+                <p class="local__name">ProHouse</p>
+                <p class="local__number">123 456 7890</p>
+                <p class="local__email">agency@gmail.com</p>
+                <button class="number__properties">3 Propeties</button>
+            </div>
+
+            <div class="agencie__card">
+                <div class="agencie__card-top">
+                    <div class="card__top__left">
+                        <img src="./img/Verified Icon.svg" alt="">
+                        <p>Verified</p>
+                    </div>
+                    <div class="card__top__rigth">
+                        <div class="value">4.5</div>
+                    </div>
+
+                </div>
+                <img src="./img/Logo2.svg" alt="">
+                <div class="flag__container">
+                    <img src="./img/Flag.svg" alt="" class="flag">
+                    <p>Los angeles, USA</p>
+                </div>
+                <p class="local__name">beHome</p>
+                <p class="local__number">123 456 7890</p>
+                <p class="local__email">agency@gmail.com</p>
+                <button class="number__properties">3 Propeties</button>
+            </div>
+
+            <div class="agencie__card">
+                <div class="agencie__card-top">
+                    <div class="card__top__left">
+                        <img src="./img/Verified Icon.svg" alt="">
+                        <p>Verified</p>
+                    </div>
+                    <div class="card__top__rigth">
+                        <div class="value">4.5</div>
+                    </div>
+
+                </div>
+                <img src="./img/Logo3.svg" width="170px" alt="">
+                <div class="flag__container">
+                    <img src="./img/Flag.svg" alt="" class="flag">
+                    <p>Seattle, USA</p>
+                </div>
+                <p class="local__name">Alain Doe</p>
+                <p class="local__number">123 456 7890</p>
+                <p class="local__email">agency@gmail.com</p>
+                <button class="number__properties">3 Propeties</button>
+            </div>
+        </section>
+
+        <section class="articles">
+
+            <div class="properties__text">
+
+                <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+                <h2 class="properties__tittle"> <span>Articles </span>& Tips</h2>
+
+            </div>
+
+            <div class="articles__container container">
+                <div class="articles__card">
+                    <div class="hero__card card1">
+
+                    </div>
+                    <div class="info__card">
+
+                        <p class="category">Category</p>
+                        <h4 class="category__name">BUYING A HOME</h4>
+
+                        <hr>
+
+                        <div class="article__time">
+                            <img src="./img/Time Icon.svg" alt="">
+                            <p>DECEMBER 28, 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__card">
+                    <div class="hero__card card2">
+
+                    </div>
+                    <div class="info__card">
+
+                        <p class="category">Category</p>
+                        <h4 class="category__name">PROS AND CONS ON A COUNTRYSIDE HOUSE</h4>
+
+                        <hr>
+
+                        <div class="article__time">
+                            <img src="./img/Time Icon.svg" alt="">
+                            <p>DECEMBER 28, 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="articles__card">
+                    <div class="hero__card card3">
+
+                    </div>
+                    <div class="info__card">
+
+                        <p class="category">Category</p>
+                        <h4 class="category__name">BUYING A HOME</h4>
+
+                        <hr>
+
+                        <div class="article__time">
+                            <img src="./img/Time Icon.svg" alt="">
+                            <p>DECEMBER 28, 2021</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <button class="btn__properties btn__properties--articles">MORE ARTICLES & TIPS</button>
+
+
+
+
+        </section>
+
+
+
+        <section class="values">
+
+            <div class="properties__text">
+
+                <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+                <h2 class="properties__tittle"> <span>Our </span>& Values</h2>
+
+            </div>
+
+            <div class="values__container container">
+
+                <div class="value__card">
+                    <h4 class="value__card__tittle">Ensuring clear communication</h4>
+                    <p class="value__card__paragraph">we keep you in the loopevery step of the way. Yoy can renly on
+                        a
+                        transparent, comprehensible flow of information</p>
+                </div>
+
+                <div class="value__card">
+                    <h4 class="value__card__tittle">Makink the most of technology</h4>
+                    <p class="value__card__paragraph">Time is precious. We guarantee a high degree of efficiency and
+                        a
+                        premium level of service by using the right tools.</p>
+                </div>
+
+                <div class="value__card">
+                    <h4 class="value__card__tittle">Provinding excellent customer service</h4>
+                    <p class="value__card__paragraph">We are passionate about what we do and we pride in achieving
+                        the
+                        personalised result that you have in mind</p>
+                </div>
+
+            </div>
+
+            <button class="btn__properties btn__properties--articles">READ MORE</button>
+
+
+        </section>
+
+
+        <section class="hero__footer">
+            <div class="hero__footer__container container">
+
+                <div class="properties__text properties__text--footer">
+
+                    <p class="properties__paragraph">CASAROYAL REAL ESTATE AGENCY</p>
+                    <h2 class="properties__tittle"> <span>What </span>Our Client Say</h2>
+
+
+
+
+                </div>
+                <p class="hero__description"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                    expedita cumque amet nostrum tenetur quos quod repudiandae, ratione consectetur distinctio nisi,
+                    molestiae recusandae fuga maiores aliquam! Non pariatur iusto cumque.</p>
+
+                <div class="avatar__footer">
+
+                    <img src="./img/Author_avatar.png" alt="">
+
+                </div>
+
+
+
+
+
+            </div>
+
+        </section>
+
+
+
+
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container ">
+            <figure class="logo__footer container">
+                <img src="./img/Logo_navbar.svg" alt="">
+            </figure>
+            <hr width="100%">
+            <div class="footer__links container">
+
+                <div class="footer__link">
+
+                    <h4 class="footer__links__tittle">INFORMATIONS</h4>
+                    <ul>
+                        <li>Our Contacts</li>
+                        <li>Privacy</li>
+                        <li>Terms and conditions</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footer__link">
+
+                    <h4 class="footer__links__tittle">PROPERTIES</h4>
+                    <ul>
+                        <li>Comercial</li>
+                        <li>House</li>
+                        <li>Office</li>
+                        <li>Residential</li>
+                        <li>Residencial Tower</li>
+                    </ul>
+                </div>
+                <div class="footer__link">
+
+                    <h4 class="footer__links__tittle">LOCATIONS</h4>
+                    <ul>
+                        <li>Beverly Hills</li>
+                        <li>Los Angeles</li>
+                        <li>Mission Viejo</li>
+                        <li>Newport Beach</li>
+                        <li>Pasadena</li>
+                    </ul>
+                </div>
+                <div class="footer__link">
+
+                    <h4 class="footer__links__tittle">USEFULL LINKS</h4>
+                    <ul>
+                        <li>Our Contacts</li>
+                        <li>Privacy</li>
+                        <li>Terms and conditions</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+                <div class="footer__link">
+
+                    <h4 class="footer__links__tittle">ABOUT CASAROYAL</h4>
+                    <ul>
+                        <li>Our Contacts</li>
+                        <li>Privacy</li>
+                        <li>Terms and conditions</li>
+                        <li>FAQs</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./js/select.js"></script>
+    <script src="./js/btnMenu.js"></script>
+    <script src="./js/data.js"></script>
+    <script src="./js/formulario.js"></script>
+    <!-- <script src="./js/inmuebles.js"></script> -->
+</body>
+
+</html>
